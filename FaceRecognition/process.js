@@ -2,7 +2,7 @@
 let model;
 
 async function loadModel() {
-    model = await tf.loadLayersModel('Model/model.json');
+    model = await tf.loadLayersModel('models/model.json');
     console.log('Model Loaded!');
 }
 
